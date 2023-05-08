@@ -16,6 +16,7 @@ export default function PostingWrapper({children}){
     const [fetchStatus,setFetchStatus]=useState(true)
 
 
+
     //Posting Detail
     const [dataPostingDetail, setDataPostingDetail]=useState([])
     const [comment,setComment]=useState('')
@@ -105,7 +106,7 @@ export default function PostingWrapper({children}){
                 }else{
                     setDataPosting([])
                     setFetchStatus(true)
-                    setPage(1)
+                    setPage(0)
                 }
             }
         } catch (error) {
@@ -122,7 +123,7 @@ export default function PostingWrapper({children}){
                 }else{
                     setDataPosting([])
                     setFetchStatus(true)
-                    setPage(1)
+                    setPage(0)
                 }
             }
         } catch (error) {

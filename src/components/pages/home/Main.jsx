@@ -29,7 +29,7 @@ const Main = () => {
       getDataPosting()
       setFetchStatus(false)
     },1000)
-  },[page])
+  },[page,fetchStatus])
 
 
   const fetchMorePost = () =>{

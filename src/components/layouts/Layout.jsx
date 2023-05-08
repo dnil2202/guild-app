@@ -44,7 +44,11 @@ const Layout = ({children}) => {
             <Head>
               {
                 getPath === '/posting/[idposting]' ?
-                <title>posting from {dataPostingDetail.user_name_post}||Guild</title>
+                <>
+                  <title>posting from {dataPostingDetail.user_name_post}||Guild</title>
+                  <meta name='description' content={`$${dataPostingDetail.user_name_post} photos`} />
+                  <link rel='icon' href='/favicon.ico' />
+                </>
                 :
               <title>Guild App</title>
               }

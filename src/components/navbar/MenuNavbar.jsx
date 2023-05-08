@@ -32,7 +32,7 @@ const MenuNavbar = () => {
                     className='fill-sky-600'
                     size={25}
                     />
-                    <h6>Profle</h6>
+                    <h6>Profile</h6>
                 </div>
             </div>
             <div className='hover:bg-slate-100 w-28 h-10 rounded-full text-white hover:text-sky-700'>

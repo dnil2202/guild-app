@@ -34,7 +34,7 @@ const Posting = ({path}) => {
             dataPosting && dataPosting.map((data,index)=>{
                 return(
                     <div 
-                    className='w-80 h-64 mb-2'
+                    className='w-80 h-64 mb-2 shadow-lg'
                     onClick={()=>router.push(`/posting/${data.idposting}`)}
                     key={data.id}
                     >

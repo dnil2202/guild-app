@@ -24,7 +24,7 @@ const PostingDetail = () => {
   const idPosting = router.asPath.split('/')[2]
 
   return (
-    <div className=' flex justify-center my-5'>
+    <div className=' flex justify-center py-5'>
         <div className='w-[1000px] h-[600px] bg-white shadow-md'>
             <div className='grid grid-cols-3'>
                 <div className='col-span-2'>
